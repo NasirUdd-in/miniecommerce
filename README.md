@@ -1,12 +1,13 @@
 Installation
 
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/NasirUdd-in/miniecommerce.git
 cd yourproject
 
 2. Set up a virtual environment
 
 python -m venv env
-source env/bin/activate # On Windows use `env\Scripts\activate`
+
+# On Windows use `env\Scripts\activate`
 
 3. Install dependencies
 

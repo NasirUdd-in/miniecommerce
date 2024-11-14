@@ -92,6 +92,8 @@ class UpdateCartItemSerializer(serializers.ModelSerializer):
         fields = ["quantity"]
 
 
+
+
 class CartSerializer(serializers.ModelSerializer):
     id = serializers.UUIDField(read_only=True)
     items = CartItemSerializer(many=True, read_only=True)
